@@ -353,6 +353,14 @@ tfoot td, table th {
         overflow-x: hidden;
     }
 
+    .white-bg {
+        margin-right: 0;
+    }
+
+    .form-group {
+        max-width: 80%;
+    }
+    
     .intro-content, .grid {
         grid-template-columns: 1fr;
     }
