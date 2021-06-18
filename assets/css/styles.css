@@ -64,6 +64,7 @@ a {
 }
 
 .white-bg {
+    
     background-color: var(--white-color);
     color: var(--primary-color);
 }
@@ -349,12 +350,11 @@ tfoot td, table th {
 
 @media (max-width: 800px) {
     
-    html {
-        overflow-x: hidden;
-    }
 
     .white-bg {
-        max-width: 100%;
+        display: block;
+        right: 0;
+        overflow-x: hidden;
     }
 
     .form-group {
