@@ -348,6 +348,11 @@ tfoot td, table th {
 }
 
 @media (max-width: 800px) {
+    
+    html {
+        overflow-x: hidden;
+    }
+
     .intro-content, .grid {
         grid-template-columns: 1fr;
     }
@@ -407,6 +412,10 @@ tfoot td, table th {
 
     .close-menu:checked~.close-menu-label::after {
         content: '×';
+    }
+
+    .main-bg {
+        width: 100%
     }
 }
 
