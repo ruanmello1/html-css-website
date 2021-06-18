@@ -350,11 +350,13 @@ tfoot td, table th {
 
 @media (max-width: 800px) {
     
+    body {
+        overflow-x: hidden;
+    }
 
     .white-bg {
-        display: block;
-        right: 0;
-        overflow-x: hidden;
+        min-width: 400px;
+
     }
 
     .form-group {
