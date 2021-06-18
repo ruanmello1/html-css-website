@@ -354,7 +354,7 @@ tfoot td, table th {
     }
 
     .white-bg {
-        margin-right: 0;
+        max-width: 100%;
     }
 
     .form-group {
