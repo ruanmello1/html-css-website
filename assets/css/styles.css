@@ -305,7 +305,7 @@ tfoot td, table th {
     width: 100%;
 } 
 
-.full-widht {
+.full-width {
     width: 100%;
     flex: 1 1 100%;
 }
@@ -350,13 +350,12 @@ tfoot td, table th {
 
 @media (max-width: 800px) {
     
-    body {
-        overflow-x: hidden;
+    .intro-text-content h2 {
+        font-size: 5rem;
     }
-
-    .white-bg {
-        min-width: 400px;
-
+   
+    * {
+        overflow-x: hidden;
     }
 
     .form-group {
@@ -416,6 +415,10 @@ tfoot td, table th {
         cursor: pointer;
     }
 
+    .close-menu:checked~body {
+    overflow: hidden;
+}
+
     .close-menu:checked~.menu {
         display: block;
     }
@@ -426,6 +429,10 @@ tfoot td, table th {
 
     .main-bg {
         width: 100%
+    }
+
+    .form-group button {
+        margin-left: 22.5%;
     }
 }
 
